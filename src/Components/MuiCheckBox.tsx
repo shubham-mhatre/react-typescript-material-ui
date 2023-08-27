@@ -10,7 +10,7 @@ const MuiCheckBox = () => {
 
     console.log({ acceptTc });
     console.log({ skill });
-    
+
     const handleChecked = (event: React.ChangeEvent<HTMLInputElement>) => {
         setAcceptTC(event.target.checked);
     }
@@ -42,11 +42,12 @@ const MuiCheckBox = () => {
                 </Box>
             </Stack>
 
+            {/* checkbox as group */}
             <Stack spacing={2} direction={'row'}>
                 <Box>
                     <FormControl>
                         <FormLabel>Skills</FormLabel>
-                        <FormGroup>
+                        <FormGroup row>
                             <FormControlLabel 
                                 label="HTML"
                                 control={<Checkbox value='html' 
