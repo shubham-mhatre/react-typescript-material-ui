@@ -4,6 +4,7 @@ import MuiTypography from './Components/MuiTypography';
 import MuiButton from './Components/MuiButton';
 import MuiTextbox from './Components/MuiTextbox';
 import MuiSelect from './Components/MuiSelect';
+import MuiRadioButton from './Components/MuiRadioButton';
 
 function App() {
   return (
@@ -11,7 +12,8 @@ function App() {
       {/* <MuiTypography/> */}
       {/* <MuiButton /> */}
       {/* <MuiTextbox /> */}
-      <MuiSelect/>
+      {/* <MuiSelect/> */}
+      <MuiRadioButton/>
     </div>
   );
 }
