@@ -19,6 +19,7 @@ import MuiNavbar from './Components/MuiNavbar';
 import MuiMenu from './Components/MuiMenu';
 import MuiLink from './Components/MuiLink';
 import MuiBreadcrumbs from './Components/MuiBreadcrumbs';
+import MuiDrawer from './Components/MuiDrawer';
 
 function App() {
   return (
@@ -42,6 +43,7 @@ function App() {
           <Route path="/muimenu" element={<MuiMenu />}></Route>
           <Route path="/muilink" element={<MuiLink />}></Route>
           <Route path="/muibreadcrumb" element={<MuiBreadcrumbs />}></Route>
+          <Route path="/muidrawer" element={<MuiDrawer />}></Route>
         </Routes>
       </Router>
     </div>
