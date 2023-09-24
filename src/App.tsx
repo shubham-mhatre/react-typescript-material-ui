@@ -18,6 +18,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import MuiNavbar from './Components/MuiNavbar';
 import MuiMenu from './Components/MuiMenu';
 import MuiLink from './Components/MuiLink';
+import MuiBreadcrumbs from './Components/MuiBreadcrumbs';
 
 function App() {
   return (
@@ -40,6 +41,7 @@ function App() {
           <Route path="/muiimagelist" element={<MuiImageList />}></Route>
           <Route path="/muimenu" element={<MuiMenu />}></Route>
           <Route path="/muilink" element={<MuiLink />}></Route>
+          <Route path="/muibreadcrumb" element={<MuiBreadcrumbs />}></Route>
         </Routes>
       </Router>
     </div>
