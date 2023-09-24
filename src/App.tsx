@@ -11,12 +11,15 @@ import MuiRating from './Components/MuiRating';
 import MuiAutoComplete from './Components/MuiAutoComplete';
 import MuiLayout from './Components/MuiLayout';
 import MuiCard from './Components/MuiCard';
-import MuiAccording from './Components/MuiAccordion';
+import MuiAccordion from './Components/MuiAccordion';
 import MuiImageList from './Components/MuiImageList';
+
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import MuiNavbar from './Components/MuiNavbar';
 
 function App() {
   return (
-    <div className="App">
+    <div >
       {/* <MuiTypography/> */}
       {/* <MuiButton /> */}
       {/* <MuiTextbox /> */}
@@ -29,7 +32,26 @@ function App() {
       {/* <MuiLayout/> */}
       {/* <MuiCard/> */}
       {/* <MuiAccording/> */}
-      <MuiImageList/>
+      {/* <MuiImageList /> */}
+
+      <Router>
+        <MuiNavbar/>
+        <Routes>
+          <Route path="/muitypography" element={<MuiTypography />}></Route>
+          <Route path="/muibutton" element={<MuiButton />}></Route>
+          <Route path="/muitextbox" element={<MuiTextbox />}></Route>
+          <Route path="/muiselect" element={<MuiSelect />}></Route>
+          <Route path="/muiradiobutton" element={<MuiRadioButton />}></Route>
+          <Route path="/muicheckbox" element={<MuiCheckBox />}></Route>
+          <Route path="/muiswitch" element={<MuiSwitch />}></Route>
+          <Route path="/muirating" element={<MuiRating />}></Route>
+          <Route path="/Muiautocomplete" element={<MuiAutoComplete />}></Route>
+          <Route path="/muilayout" element={<MuiLayout />}></Route>
+          <Route path="/muicard" element={<MuiCard />}></Route>
+          <Route path="/muiaccordion" element={<MuiAccordion />}></Route>
+          <Route path="/muiimagelist" element={<MuiImageList />}></Route>
+        </Routes>
+      </Router>
     </div>
   );
 }

@@ -1,0 +1,20 @@
+/* MuiNavbar.css */
+.scroll-container {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    max-width: 100%;
+    flex-shrink: 0; /* Prevent content from wrapping */
+    width: 100%; /* Set a width for the content container */
+  }
+  
+  /* Hide scrollbar for WebKit browsers (Chrome, Safari) */
+  .scroll-container::-webkit-scrollbar {
+    width: 0.1em;
+    background: transparent;
+  }
+  
+  .scroll-container::-webkit-scrollbar-thumb {
+    background: transparent;
+  }
+  

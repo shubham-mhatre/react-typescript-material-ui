@@ -4,7 +4,7 @@ import React, { useState } from 'react'
 
 
 
-const MuiAccording = () => {
+const MuiAccordion = () => {
     const [expanded, setExpanded] = useState<string | boolean>(false);
 
     //to hide & show accordion
@@ -44,4 +44,4 @@ const MuiAccording = () => {
     )
 }
 
-export default MuiAccording
+export default MuiAccordion
