@@ -16,24 +16,12 @@ import MuiImageList from './Components/MuiImageList';
 
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import MuiNavbar from './Components/MuiNavbar';
+import MuiMenu from './Components/MuiMenu';
+import MuiLink from './Components/MuiLink';
 
 function App() {
   return (
     <div >
-      {/* <MuiTypography/> */}
-      {/* <MuiButton /> */}
-      {/* <MuiTextbox /> */}
-      {/* <MuiSelect/> */}
-      {/* <MuiRadioButton/> */}
-      {/* <MuiCheckBox/> */}
-      {/* <MuiSwitch /> */}
-      {/* <MuiRating /> */}
-      {/* <MuiAutoComplete />*/}
-      {/* <MuiLayout/> */}
-      {/* <MuiCard/> */}
-      {/* <MuiAccording/> */}
-      {/* <MuiImageList /> */}
-
       <Router>
         <MuiNavbar/>
         <Routes>
@@ -50,6 +38,8 @@ function App() {
           <Route path="/muicard" element={<MuiCard />}></Route>
           <Route path="/muiaccordion" element={<MuiAccordion />}></Route>
           <Route path="/muiimagelist" element={<MuiImageList />}></Route>
+          <Route path="/muimenu" element={<MuiMenu />}></Route>
+          <Route path="/muilink" element={<MuiLink />}></Route>
         </Routes>
       </Router>
     </div>

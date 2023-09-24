@@ -13,10 +13,10 @@ const MuiNavbar = () => {
 
     return (
         <Box sx={{ flexGrow: 1 }}>
-            <AppBar position="static">
+            <AppBar position="static" style={{backgroundColor:'#00838f'}}>
                 <Toolbar>
                     <Box sx={{width:'15%'}}>
-                        <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
+                        <Typography variant="body2" component="div" sx={{ flexGrow: 1 }}>
                             Mui Tutorial
                         </Typography>
                     </Box>
@@ -42,13 +42,15 @@ const MuiNavbar = () => {
                                 <Button color='inherit' href="/muicard">card</Button>
                                 <Button color='inherit' href="/muiaccordion">Accordion</Button>
                                 <Button color='inherit' href="/muiimagelist">imageList</Button>
+                                <Button color='inherit' href="/muimenu">Menu</Button>
+                                <Button color='inherit' href="/muilink">Link</Button>
                             </div>
                         </div>
-                        <div style={{ minWidth: '100px' }} />
+                        <div style={{ minWidth: '500px' }} />
                     </div>
                 </Toolbar>
             </AppBar>
-            <div style={{ position: 'absolute', top: '0', right: '10px', zIndex: '1' }}>
+            <div className='forwardIcon'>
                 <IconButton onClick={() => handleScroll(100)}>
                     <ArrowForward />
                 </IconButton>
