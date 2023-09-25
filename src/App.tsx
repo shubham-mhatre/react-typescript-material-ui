@@ -22,6 +22,7 @@ import MuiBreadcrumbs from './Components/MuiBreadcrumbs';
 import MuiDrawer from './Components/MuiDrawer';
 import MuiSpeedDial from './Components/MuiSpeedDial';
 import MuiBottomNavigation from './Components/MuiBottomNavigation';
+import MuiAvatar from './Components/MuiAvatar';
 
 function App() {
   return (
@@ -48,6 +49,7 @@ function App() {
           <Route path="/muidrawer" element={<MuiDrawer />}></Route>
           <Route path="/muispeeddial" element={<MuiSpeedDial />}></Route>
           <Route path="/muibottomnavigation" element={<MuiBottomNavigation />}></Route>
+          <Route path="/muiavatar" element={<MuiAvatar />}></Route>
         </Routes>
       </Router>
     </div>
