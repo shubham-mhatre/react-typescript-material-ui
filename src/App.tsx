@@ -23,6 +23,7 @@ import MuiDrawer from './Components/MuiDrawer';
 import MuiSpeedDial from './Components/MuiSpeedDial';
 import MuiBottomNavigation from './Components/MuiBottomNavigation';
 import MuiAvatar from './Components/MuiAvatar';
+import MuiBadge from './Components/MuiBadge';
 
 function App() {
   return (
@@ -50,6 +51,7 @@ function App() {
           <Route path="/muispeeddial" element={<MuiSpeedDial />}></Route>
           <Route path="/muibottomnavigation" element={<MuiBottomNavigation />}></Route>
           <Route path="/muiavatar" element={<MuiAvatar />}></Route>
+          <Route path="/muibadge" element={<MuiBadge />}></Route>
         </Routes>
       </Router>
     </div>
