@@ -21,6 +21,7 @@ import MuiLink from './Components/MuiLink';
 import MuiBreadcrumbs from './Components/MuiBreadcrumbs';
 import MuiDrawer from './Components/MuiDrawer';
 import MuiSpeedDial from './Components/MuiSpeedDial';
+import MuiBottomNavigation from './Components/MuiBottomNavigation';
 
 function App() {
   return (
@@ -46,6 +47,7 @@ function App() {
           <Route path="/muibreadcrumb" element={<MuiBreadcrumbs />}></Route>
           <Route path="/muidrawer" element={<MuiDrawer />}></Route>
           <Route path="/muispeeddial" element={<MuiSpeedDial />}></Route>
+          <Route path="/muibottomnavigation" element={<MuiBottomNavigation />}></Route>
         </Routes>
       </Router>
     </div>
