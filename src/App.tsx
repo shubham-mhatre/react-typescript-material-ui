@@ -26,6 +26,7 @@ import MuiAvatar from './Components/MuiAvatar';
 import MuiBadge from './Components/MuiBadge';
 import MuiList from './Components/MuiList';
 import MuiChip from './Components/MuiChip';
+import MuiTooltip from './Components/MuiTooltip';
 
 function App() {
   return (
@@ -56,6 +57,7 @@ function App() {
           <Route path="/muibadge" element={<MuiBadge />}></Route>
           <Route path="/muilist" element={<MuiList />}></Route>
           <Route path="/muichip" element={<MuiChip />}></Route>
+          <Route path="/muitooltip" element={<MuiTooltip />}></Route>
         </Routes>
       </Router>
     </div>
