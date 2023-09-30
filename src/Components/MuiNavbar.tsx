@@ -54,6 +54,7 @@ const MuiNavbar = () => {
                                 <Button color='inherit' href="/muichip">Chip</Button>
                                 <Button color='inherit' href="/muitooltip">Tooltip</Button>
                                 <Button color='inherit' href="/muitable">Table</Button>
+                                <Button color='inherit' href="/muialert">Alert</Button>
                             </div>
                         </div>
                         <div style={{ minWidth: '500px' }} />

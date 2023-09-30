@@ -28,6 +28,7 @@ import MuiList from './Components/MuiList';
 import MuiChip from './Components/MuiChip';
 import MuiTooltip from './Components/MuiTooltip';
 import MuiTable from './Components/MuiTable';
+import MuiAlert from './Components/MuiAlert';
 
 function App() {
   return (
@@ -60,6 +61,7 @@ function App() {
           <Route path="/muichip" element={<MuiChip />}></Route>
           <Route path="/muitooltip" element={<MuiTooltip />}></Route>
           <Route path="/muitable" element={<MuiTable />}></Route>
+          <Route path="/muialert" element={<MuiAlert />}></Route>
         </Routes>
       </Router>
     </div>
