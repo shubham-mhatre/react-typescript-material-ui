@@ -31,6 +31,7 @@ import MuiTable from './Components/MuiTable';
 import MuiAlert from './Components/MuiAlert';
 import MuiSnackbar from './Components/MuiSnackbar';
 import MuiDialog from './Components/MuiDialog';
+import MuiProgress from './Components/MuiProgress';
 
 function App() {
   return (
@@ -66,6 +67,7 @@ function App() {
           <Route path="/muialert" element={<MuiAlert />}></Route>
           <Route path="/muisnackbar" element={<MuiSnackbar />}></Route>
           <Route path="/muidialog" element={<MuiDialog />}></Route>
+          <Route path="/muiprogress" element={<MuiProgress />}></Route>
         </Routes>
       </Router>
     </div>
