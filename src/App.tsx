@@ -32,6 +32,7 @@ import MuiAlert from './Components/MuiAlert';
 import MuiSnackbar from './Components/MuiSnackbar';
 import MuiDialog from './Components/MuiDialog';
 import MuiProgress from './Components/MuiProgress';
+import MuiSkeleton from './Components/MuiSkeleton';
 
 function App() {
   return (
@@ -68,6 +69,7 @@ function App() {
           <Route path="/muisnackbar" element={<MuiSnackbar />}></Route>
           <Route path="/muidialog" element={<MuiDialog />}></Route>
           <Route path="/muiprogress" element={<MuiProgress />}></Route>
+          <Route path="/muiskeleton" element={<MuiSkeleton />}></Route>
         </Routes>
       </Router>
     </div>
