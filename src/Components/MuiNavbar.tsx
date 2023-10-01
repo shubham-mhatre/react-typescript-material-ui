@@ -28,7 +28,7 @@ const MuiNavbar = () => {
                             ref={scrollContainerRef}
                             className='scroll-container'
                         >
-                            <div style={{ minWidth: '2700px', padding: '8px' }}>
+                            <div style={{ minWidth: '2900px', padding: '8px' }}>
                                 <Button color='inherit' href="/muitypography">Typography</Button>
                                 <Button color='inherit' href="/muibutton">Button</Button>
                                 <Button color='inherit' href="/muitextbox">TextBox</Button>
@@ -59,6 +59,7 @@ const MuiNavbar = () => {
                                 <Button color='inherit' href="/muidialog">Dialog</Button>
                                 <Button color='inherit' href="/muiprogress">progress</Button>
                                 <Button color='inherit' href="/muiskeleton">skeleton</Button>
+                                <Button color='inherit' href="/muiloadingbutton">Loading BTN</Button>
                             </div>
                         </div>
                         <div style={{ minWidth: '500px' }} />
